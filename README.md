@@ -82,4 +82,3 @@ Aspiring Cybersecurity Professional
 
 This project is licensed under the MIT License.
 
-## 🏗️ Project Architecture
