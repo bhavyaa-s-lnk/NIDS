@@ -49,7 +49,7 @@ This project captures and analyzes network packets in real time to identify pote
 
 ## 🖥️ Installation & Setup
 
-git clone https://github.com/your-username/NIDS.git
+git clone https://github.com/bhavyaa-s-lnk/NIDS.git
 cd NIDS
 pip install -r requirements.txt
 python main.py
