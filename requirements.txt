@@ -1,0 +1,94 @@
+# ============================================
+# NIDS - Network Intrusion Detection System
+# Production Requirements
+# ============================================
+
+# ============================================
+# CORE DEPENDENCIES (Required)
+# ============================================
+
+# Packet Capture & Network Analysis
+scapy==2.5.0
+
+# Web Framework
+flask==3.0.0
+werkzeug==3.0.1
+
+# Machine Learning
+scikit-learn==1.3.2
+numpy==1.24.3
+joblib==1.3.2
+
+# Configuration Management
+pyyaml==6.0.1
+
+# Logging
+python-json-logger==2.0.7
+
+# ============================================
+# OPTIONAL DEPENDENCIES (Recommended)
+# ============================================
+
+# Data Processing (for advanced analytics)
+pandas==2.1.4
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Enhanced Logging
+coloredlogs==15.0.1
+
+# CORS Support (for remote dashboard access)
+flask-cors==4.0.0
+
+# ============================================
+# PRODUCTION DEPLOYMENT (Optional)
+# ============================================
+
+# Production WSGI Server
+gunicorn==21.2.0
+
+# ============================================
+# DEVELOPMENT & TESTING (Optional)
+# ============================================
+
+# Testing Framework
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code Formatting
+black==23.12.1
+
+# Code Linting
+flake8==6.1.0
+pylint==3.0.3
+
+# Type Checking
+mypy==1.7.1
+
+# ============================================
+# SECURITY (Optional)
+# ============================================
+
+# Cryptography utilities
+cryptography==41.0.7
+
+# ============================================
+# INSTALLATION NOTES
+# ============================================
+#
+# MINIMAL INSTALL (Just to test):
+#   pip3 install scapy flask scikit-learn numpy pyyaml python-json-logger
+#
+# FULL INSTALL (Everything):
+#   pip3 install -r requirements.txt
+#
+# WITH --break-system-packages (if needed on some Linux):
+#   pip3 install --break-system-packages -r requirements.txt
+#
+# INSTALL SPECIFIC SECTIONS:
+#   pip3 install scapy flask scikit-learn numpy pyyaml python-json-logger  # Core only
+#   pip3 install pytest pytest-cov black flake8  # Dev tools only
+#
+# ============================================
